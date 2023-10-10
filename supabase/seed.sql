@@ -1,4 +1,4 @@
 select vault.create_secret(
-  'http://api.supabase.internal:8000',
+  'http://supabase_kong_chatgpt-your-files:8000',
   'supabase_url'
 );
